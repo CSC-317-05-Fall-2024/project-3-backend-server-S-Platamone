@@ -1,1 +1,111 @@
-/* Add your css here */
+
+.title {
+    background-image: url(./images/SFSkyline.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 7em;
+    color: rgb(248, 248, 248);
+    font-weight: bold;
+    padding: 0.5em;
+    text-shadow: 1px 2px 2px black;
+}
+body {
+    margin: 0 0 0 0;
+    background-color: rgb(18, 27, 43);
+}
+nav {
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: rgb(178, 183, 190);
+}
+footer {
+    text-align: right;
+    background-color: lightblue;
+    margin: 2em 0 0 0;
+}
+a:link {
+    color:rgb(0, 0, 0);
+}
+a:visited {
+    color:rgb(0, 0, 0);
+}
+a:hover {
+    color:rgb(133, 133, 133);
+}
+
+.streetView {
+    width: 40%;
+    margin: 3em auto 3em auto;
+    display: block;
+}
+.centerText {
+    font-size: large;
+    color: rgb(201, 201, 201);
+    text-align: center;
+    margin: 0 10em 0 10em;
+}
+.sideCard {
+    font-size:large;
+    color:rgb(201, 201, 201);
+    line-height: 125%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 5em 5em 5em;
+}
+.sideCardTitle {
+    width: 25%;
+    font-size: 3em;
+    font-weight: bold;
+}
+.sideCardBody {
+    width: 50%;
+}
+.sideCardImg {
+    width: 35%;
+    height: 25%;
+    margin: 3em 3em 3em 3em;
+}
+.gridCardContainer {
+    padding: 5em 5em 5em 5em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 7em;
+    row-gap: 7em;
+}
+.gridCard {
+    font-size: large;
+    color:rgb(178, 183, 190);
+    background-color:rgba(169, 167, 194, 0.384);
+    box-shadow: 1px 1px 3px black;
+}
+.gridCardImg {
+    padding: 1em 0em 1em 0em;
+    width: 95%;
+    height: 80%;
+}
+#gridCardDelete {
+    font-weight: bold;
+    background-color: rgba(169, 167, 194, 0.384);
+}
+h1 {
+    text-align: center;
+    font-size: 5em;
+    color:rgb(201, 201, 201);
+}
+form {
+    color:rgb(201, 201, 201);
+    text-align: center;
+    font-size: larger;
+}
+input{
+    margin: 2em;
+}
